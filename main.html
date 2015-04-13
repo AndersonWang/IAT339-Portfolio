@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Anderson Wang - Photographer and Interactive Art Enthusiast</title>
+
+    <!-- Bootstraps stylesheet -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- additional support for IE7 -->
+    [if IE 7]
+      <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+    [endif]
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+<body>
+
+    <nav class="nav">
+      <div class="burger">
+        <div class="burger__patty"></div>
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#1" class="nav__link c-blue"><i class="fa fa-camera-retro"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="#2" class="nav__link c-yellow scrolly"><i class="fa fa-bolt"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="#3" class="nav__link c-red"><i class="fa fa-music"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="#4" class="nav__link c-green"><i class="fa fa-paper-plane"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="panel b-blue" id="1">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <h1 class="panel__headline"><i class="fa fa-camera-retro"></i>&nbsp;Who's this guy</h1>
+          <div class="panel__block"></div>
+            <div class="container">
+              <div class="col-sm-5">
+                <img src="image/selfie1.jpg" alt="my selfie" height="400" width="400">
+              </div>
+              <div class="col-sm-6">
+                <p>Hi, I'm Anderson Wang. I'm a photographer and interactive art enthusiast in Grater Vancouver Area, BC</p>
+                <p>I have 5 years of experience in photogrpahy, worked as photo editor at Simon Fraser University's award winning student newspaper, I believe every photo tells a story. I'm also an maker, or a geek if I may say, I love exploring the endless possiblities with technologies and make the interaction with a lot of fun.</p>
+                <p>I'm currently looking for oppoturnities in photography and digital media industry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+    <section class="panel b-yellow" id="2">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <h1 class="panel__headline"><i class="fa fa-bolt"></i>&nbsp;Photography</h1>
+          <div class="panel__block"></div>
+            <div class="slideshow">
+                <ul>
+                    <li><img src="image/peak_cover_1_2x.jpg"></li>
+                    <li><img src="image/peak_cover_2_2x.jpg"></li>
+                    <li><img src="image/mtc_1_2x.jpg"></li>
+                    <li><img src="image/mtc_2_2x.jpg"></li>
+                    <li><img src="image/mtc_3_2x.jpg"></li>
+                    <li><img src="image/feat_1_2x.jpg"></li>
+                </ul>
+            </div>
+          <h2>The Peak</h2>
+          <h3>Simon Fraser University student newspaper</h3>
+          <h3>Award & Recognition:</h3>
+          <h3>Outstanding Campus Photography - 2015 Canadian Community Newspapers Awards</h3>
+          <p>This is a collection of photos published by The Peak, Simon Fraser University's student newspaper.</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section class="panel b-red" id="3">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <h1 class="panel__headline"><i class="fa fa-music"></i>&nbsp;Interactive Project</h1>
+          <div class="panel__block"></div>
+            <iframe src="https://player.vimeo.com/video/118007356" width="1000" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <h2>Drion</h2>
+            <h3>Interactive Video Installation</h3>
+            <h3>Showcase:</h3> 
+            <h3>2015 Simon Fraser University FCAT Undergraduate Conference </h3>
+            <h3>2015 Simon Fraser University Surrey Open House </h3>
+            <p>Drion is an interactive installation art and video mapping. The concept revolves around the idea of balance and how to keep the body balance with visual illusion graphics. By creating an interactive installation themed under TRON, the participant experiences a fun way of balancing by holding a stick that would help them balance on a beam and follow the light on the ground. The harmonious background music will change along with the graphics depending on whether the participant is balanced on the beam or unbalanced.
+</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section class="panel b-green" id="4">
+      <article class="panel__wrapper">
+        <div class="panel__content">
+          <h1 class="panel__headline"><i class="fa fa-paper-plane"></i>&nbsp;Contact Me</h1>
+          <div class="panel__block"></div>
+            <div class="container">
+              <div class="col-sm-5">
+
+              <p>You can reach me simple through telegraph or UHF. If you are not a HAM and you don't know Morse code, social medias work just fine.</p>
+
+              <a href="default.asp">
+              <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0"></a>
+
+
+
+        </div>
+      </article>
+    </section>
+
+
+  
+
+<!-- jQuery -->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/unslider.min.js"></script>
+
+  <script>
+      $(function() {
+    $('.slideshow').unslider({
+      speed: 500,               //  The speed to animate each slide (in milliseconds)
+      delay: 3000,              //  The delay between slide animations (in milliseconds)
+      complete: function() {},  //  A function that gets called after every slide animation
+      keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+      dots: true,               //  Display dot navigation
+      fluid: true,              //  Support responsive design. May break non-responsive designs
+    });
+});
+    </script>
+
+</body>
+
+</html>
