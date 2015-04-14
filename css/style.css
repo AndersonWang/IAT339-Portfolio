@@ -245,6 +245,13 @@ ul {
 .slideshow li { list-style: none; }
 .slideshow ul li { float: left; }
 
+@media (max-width: 640px) {
+  .slideshow {
+    width: 500px;
+    height: 333px;
+  }
+}
+
 .c-blue {
   color: #5fc7ea;
 }
