@@ -261,10 +261,10 @@ ul {
   }
 }
 
-@media (max-width:2000px) {
-  .panel__block iframe {
-      max-width: 1280px;
-      max-height: 720px;
+@media (max-width:640px) {
+  .video_frame iframe {
+      max-width: 500px;
+      max-height: 281px;
   }
 }
 
