@@ -269,19 +269,19 @@ ul {
 }
 
 .b-blue {
-  background: #5fc7ea;
+  background: #99CCCC;
 }
 
-.b-red {
-  background: #e68568;
+.b-white {
+  background: #FFFFFF;
 }
 
-.b-green {
-  background: #68e6ac;
+.b-grey {
+  background: #CCCCCC;
 }
 
 .b-yellow {
-  background: #e6d068;
+  background: #FFFFCC;
 }
 
 .logo {
