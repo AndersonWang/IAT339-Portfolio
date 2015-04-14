@@ -75,8 +75,8 @@
           <h1 class="panel__headline"><i class="fa fa-bolt"></i>&nbsp;Photography</h1>
           <div class="panel__block"></div>
             <div class="container">
-              <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
-                <div class="slideshow">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="slideshow has-dots" style="overflow: hidden; width: 100%; height: auto">
                     <ul>
                         <li><img src="image/peak_cover_1_2x.jpg"></li>
                         <li><img src="image/peak_cover_2_2x.jpg"></li>
@@ -87,8 +87,8 @@
                     </ul>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
-                <h2>The Peak</h2>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3>The Peak</h3>
                 <h3>Simon Fraser University student newspaper</h3>
                 <h3>Award & Recognition:</h3>
                 <h3>Outstanding Campus Photography - 2015 Canadian Community Newspapers Awards</h3>
@@ -107,7 +107,7 @@
           <div class="panel__block"></div>
             <div class="container">
               <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
-                <iframe src="https://player.vimeo.com/video/118007356" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/118007356" width="100%" height="100%" onload="this.height=iFrame1.document.body.scrollHeight" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
@@ -168,6 +168,8 @@
       keys: true,               //  Enable keyboard (left, right) arrow shortcuts
       dots: true,               //  Display dot navigation
       fluid: true,              //  Support responsive design. May break non-responsive designs
+
+
     });
 });
     </script>
