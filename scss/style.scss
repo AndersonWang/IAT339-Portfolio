@@ -183,7 +183,12 @@ ul {
     font-size: 48px;
     margin: 0 0 25px 0;
   }
-  
+
+  h3{
+  font-size: 26px;
+  font-weight: 2;
+}
+
   p {
     margin: 0 0 25px 0;
     color: lighten(black, 10);
@@ -195,7 +200,7 @@ ul {
       margin-bottom: 0;
     }
   }
-  
+
   &__block {
     height: 3px;
     background: rgba(black, 0.2);

@@ -8,11 +8,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 
 .nav {
   position: fixed;
@@ -245,10 +247,24 @@ ul {
 .slideshow li { list-style: none; }
 .slideshow ul li { float: left; }
 
-@media (max-width: 640px) {
-  .slideshow {
-    width: 500px;
-    height: 333px;
+@media (max-width:1024px) {
+  .slideshow img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+}
+
+@media (max-width:640px) {
+  .slideshow img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+}
+
+@media (max-width:2000px) {
+  .panel__block iframe {
+      max-width: 1280px;
+      max-height: 720px;
   }
 }
 
